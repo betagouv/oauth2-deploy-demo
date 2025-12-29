@@ -1,1 +1,1 @@
-web: /app/bin/start_with_oauth2_proxy.sh exec node index.js
+web: ./bin/start_with_oauth2_proxy.sh exec node index.js
