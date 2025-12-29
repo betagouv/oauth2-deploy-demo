@@ -10,7 +10,7 @@
   "buildpacks": [
     { "url": "Scalingo/nodejs-buildpack" },
     {
-      "url": "betagouv/scalingo-oauth2-proxy"
+      "url": "betagouv/oauth2-proxy-buildpack"
     }
   ],
   "env": {
