@@ -4,6 +4,8 @@ sample NodeJS application behind [oauth2-proxy](https://oauth2-proxy.github.io/o
 
 use [oauth2-proxy-buildpack](https://github.com/betagouv/oauth2-proxy-buildpack)
 
+![](oauth2-proxy.png)
+
 ## Setup
 
 Choose your OAUTH provider wisely
