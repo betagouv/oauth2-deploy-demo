@@ -6,6 +6,8 @@ use [oauth2-proxy-buildpack](https://github.com/betagouv/oauth2-proxy-buildpack)
 
 ![](oauth2-proxy.png)
 
+Example setup : https://oauth2-deploy-demo.incubateur.net/
+
 ## Setup
 
 Choose your OAUTH provider wisely
