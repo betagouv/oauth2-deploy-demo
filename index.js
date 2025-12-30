@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   html += `<li>Logged in as ${req.headers["x-forwarded-user"]}</li>\n`;
   html += `<li>Email: ${req.headers["x-forwarded-email"]}</li>\n`;
   html += `<li>Real IP: ${req.headers["x-real-ip"]}</li>\n`;
-  html += `<br/><br/>${JSON.stringify(req.headers)}`;
+  // html += `<br/><br/>${JSON.stringify(req.headers)}`;
   html +=
     "<br/><br/><a href='https://github.com/betagouv/oauth2-deploy-demo'>Demo repo</a>";
   res.send(html);
