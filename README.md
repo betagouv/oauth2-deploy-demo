@@ -30,11 +30,11 @@ OAUTH2_PROXY_SCOPE=openid given_name usual_name email profile
 OAUTH2_PROXY_BACKEND_LOGOUT_URL=https://fca.integ01.dev-agentconnect.fr/api/v2/session/end?id_token_hint={id_token}&state=something42&post_logout_redirect_uri=https%3A%2F%2Foauth2-deploy-demo.incubateur.net
 # config
 OAUTH2_PROXY_BANNER=private access
-OAUTH2_PROXY_COOKIE_DOMAINS=$HOSTNAME
+OAUTH2_PROXY_COOKIE_DOMAINS=oauth2-deploy-demo.incubateur.net
 OAUTH2_PROXY_COOKIE_SECURE=true
 OAUTH2_PROXY_CUSTOM_SIGN_IN_LOGO=https://avatars.githubusercontent.com/u/7874148?s=200&v=4
 OAUTH2_PROXY_FOOTER=powered by oauth2-proxy
-OAUTH2_PROXY_REDIRECT_URL=https://$HOSTNAME/oauth2/callback
+OAUTH2_PROXY_REDIRECT_URL=https://oauth2-deploy-demo.incubateur.net/oauth2/callback
 OAUTH2_PROXY_REVERSE_PROXY=false
 OAUTH2_PROXY_SET_AUTHORIZATION_HEADER=true
 OAUTH2_PROXY_SET_XAUTHREQUEST=true
