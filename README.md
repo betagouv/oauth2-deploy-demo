@@ -35,4 +35,7 @@ OAUTH2_PROXY_COOKIE_SECRET=[instance specific cookie secret]
 
 and any other [oauth2-proxy](https://oauth2-proxy.github.io/oauth2-proxy/configuration/overview?_highlight=variables#environment-variables) configuration.
 
-tips: see [this page](https://oauth2-proxy.github.io/oauth2-proxy/configuration/overview?_highlight=cookie#generating-a-cookie-secret) to generate the cookie secret.
+tips:
+
+- see [this page](https://oauth2-proxy.github.io/oauth2-proxy/configuration/overview?_highlight=cookie#generating-a-cookie-secret) to generate the cookie secret.
+- create a [GitHub oAuth app](https://github.com/organizations/betagouv/settings/applications/new).
