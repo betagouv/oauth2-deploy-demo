@@ -40,6 +40,10 @@ OAUTH2_PROXY_SET_AUTHORIZATION_HEADER=true
 OAUTH2_PROXY_SET_XAUTHREQUEST=true
 OAUTH2_PROXY_SKIP_PROVIDER_BUTTON=false
 OAUTH2_PROXY_UPSTREAMS=http://127.0.0.1:8080
+# exclude n8n webhooks
+OAUTH2_PROXY_SKIP_AUTH_ROUTES=/webhook-.*
+# exclude metabase public shares
+OAUTH2_PROXY_SKIP_AUTH_ROUTES=/app/,/public/,/api/public/
 # secrets
 OAUTH2_PROXY_CLIENT_ID=[oauth provider client ID]
 OAUTH2_PROXY_CLIENT_SECRET=[oauth provider client secret]
