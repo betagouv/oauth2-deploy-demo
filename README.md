@@ -57,3 +57,5 @@ tips:
 - see [this page](https://oauth2-proxy.github.io/oauth2-proxy/configuration/overview?_highlight=cookie#generating-a-cookie-secret) to generate the cookie secret.
 - create a [GitHub oAuth app](https://github.com/organizations/betagouv/settings/applications/new).
 - create a [ProConnect oAuth app](https://partenaires.proconnect.gouv.fr/apps).
+
+For ProConnect, custom claims (ex: given_name, usual_name) will be available when [this upstream PR](https://github.com/oauth2-proxy/oauth2-proxy/pull/2685) will be merged.
