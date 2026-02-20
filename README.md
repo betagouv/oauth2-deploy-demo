@@ -27,7 +27,7 @@ OAUTH2_PROXY_OIDC_ISSUER_URL=https://fca.integ01.dev-agentconnect.fr/api/v2
 OAUTH2_PROXY_PROMPT=login
 OAUTH2_PROXY_REDIRECT_URL=https://oauth2-deploy-demo.incubateur.net/oauth2/callback
 OAUTH2_PROXY_SCOPE=openid given_name usual_name email profile
-OAUTH2_PROXY_BACKEND_LOGOUT_URL=https://fca.integ01.dev-agentconnect.fr/api/v2/session/end?id_token_hint={id_token}&state=something42&post_logout_redirect_uri=https%3A%2F%2Foauth2-deploy-demo.incubateur.net
+OAUTH2_PROXY_FOOTER=<a href="/oauth2/sign_out?rd=https%3A%2F%2Ffca.integ01.dev-agentconnect.fr%2Fapi%2Fv2%2Fsession%2Fend%3Fclient_id%3D[client_id]%26post_logout_redirect_uri%3Dhttps%253A%252F%252Foauth2-deploy-demo.incubateur.net/oauth2/sign_out">Se déconnecter</a>
 # config
 OAUTH2_PROXY_BANNER=private access
 OAUTH2_PROXY_COOKIE_DOMAINS=oauth2-deploy-demo.incubateur.net
@@ -52,6 +52,8 @@ OAUTH2_PROXY_COOKIE_SECRET=[instance specific cookie secret]
 ```
 
 and any other [oauth2-proxy](https://oauth2-proxy.github.io/oauth2-proxy/configuration/overview?_highlight=variables#environment-variables) configuration.
+
+The `OAUTH2_PROXY_FOOTER` example adds a IDP logout button in case the user is logged-in to the IDP but not granted
 
 tips:
 
