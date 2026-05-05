@@ -61,4 +61,4 @@ tips:
 - create a [GitHub oAuth app](https://github.com/organizations/betagouv/settings/applications/new).
 - create a [ProConnect oAuth app](https://partenaires.proconnect.gouv.fr/apps).
 
-For ProConnect, custom claims (ex: given_name, usual_name) will be available when [this upstream PR](https://github.com/oauth2-proxy/oauth2-proxy/pull/2685) will be merged.
+For ProConnect, custom claims (ex: given_name, usual_name) are only available in the oauth2-proxy ["alpha" config mode](https://oauth2-proxy.github.io/oauth2-proxy/configuration/alpha-config).
