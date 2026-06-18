@@ -2,7 +2,9 @@
 
 sample NodeJS application behind [oauth2-proxy](https://oauth2-proxy.github.io/oauth2-proxy/) for scalingo.
 
-use [oauth2-proxy-buildpack](https://github.com/betagouv/oauth2-proxy-buildpack)
+use [oauth2-proxy-buildpack](https://github.com/betagouv/oauth2-proxy-buildpack).
+
+see examples scalingo setups for [n8n](https://github.com/betagouv/n8n-scalingo/pull/3) or [metabase](https://github.com/betagouv/metabase-scalingo/pull/8/)
 
 ![](oauth2-proxy.png)
 
